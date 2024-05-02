@@ -1,0 +1,67 @@
+
+header{
+    background-color: antiquewhite;
+    padding: 10px;
+    display: flex;
+    align-items: center
+}
+
+
+
+nav ul{
+    list-style-type: none;
+    padding:0;
+    margin: 0;
+    overflow: hidden;
+}
+
+nav li{
+    float: left
+}
+
+nav li a{
+    display: block;
+    padding: 10px 10px;
+    color: black;
+    transform: scale(1.5);
+    transform: skew(20deg, 10deg);
+    text-decoration: none;
+}
+
+nav li a:hover{
+    background-color : whitesmoke;
+    color: goldenrod;
+}
+
+.container{
+    display: flex;
+}
+
+.item{
+    flex: 1;
+    border: 10px solid burlywood;
+    padding: 10px;
+    margin: 10px;
+
+}
+
+table {
+    border-style:solid;
+}
+
+tr td{
+    background-color: antiquewhite;
+    border-style: dotted;
+}
+
+tr td:hover{
+    background-color: whitesmoke;
+    color:goldenrod;
+}
+
+footer {
+    background-color: antiquewhite;
+    padding: 10px;
+    text-align: center; 
+}
+
